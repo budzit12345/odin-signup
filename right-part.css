@@ -1,0 +1,257 @@
+.mainmain {
+    display: flex;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.right-container-top{
+    background-color: rgb(250, 246, 246);
+}
+p:first-child {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    max-width: 55ch;
+    margin-top: 11vh;
+    margin-left: 8vh;
+    margin-bottom: 0;
+}
+
+.youknow {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-left: 8vh;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 8vh;
+}
+
+form {
+    
+    margin-top: 7vh;
+    box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.35);
+}
+
+.gridd {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 100px;
+}
+
+.my-form1 {
+    display: flex;
+    flex-direction: column;
+    width: 32vh;
+    margin-top: 14px;
+    margin-left: 8vh;
+}
+
+.first-input {
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+    height: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.first-input:focus {
+    border: 2px solid blue;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.35);
+    outline: none;
+}
+.name-label {
+    font-size: 11px;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
+.my-form2 {
+    display: flex;
+    flex-direction: column;
+    width: 32vh;
+    margin-top: 14px;
+    margin-left: 8vh;
+}
+
+.second-input {
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+    height: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.second-input:focus {
+    border: 2px solid blue;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.35);
+    outline: none;
+}
+
+.last-label {
+    font-size: 11px;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
+.my-form3 {
+    display: flex;
+    flex-direction: column;
+    width: 32vh;
+    margin-top: 18px;
+    margin-left: 8vh;
+}
+
+.third-input {
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+    height: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+   
+}
+
+.third-input:focus {
+    border: 2px solid blue;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.35);
+    outline: none;
+}
+
+.email-label {
+    font-size: 11px;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
+.my-form4 {
+    display: flex;
+    flex-direction: column;
+    width: 32vh;
+    margin-top: 18px;
+    margin-left: 8vh;
+
+}
+
+.fourth-input {
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+    height: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.fourth-input:focus {
+    border: 2px solid blue;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.35);
+    outline: none;
+}
+
+.number-label {
+    font-size: 11px;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
+.my-form5 {
+    display: flex;
+    flex-direction: column;
+    width: 32vh;
+    margin-top: 18px;
+    margin-left: 8vh;
+}
+
+.fifth-input {
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+    height: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.password-label {
+    font-size: 11px;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
+.fifth-input:focus {
+    border: 2px solid blue;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.35);
+    outline: none;
+}
+
+.fifth-input:invalid {
+    border: 2px solid red;
+}
+
+.my-form6 {
+    display: flex;
+    flex-direction: column;
+    width: 32vh;
+    margin-top: 18px;
+    margin-left: 8vh;
+}
+
+.confirm-label {
+    font-size: 11px;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
+.sixth-input {
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+    height: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.sixth-input:focus {
+    border: 2px solid blue;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.35);
+    outline: none;
+}
+
+.sixth-input:invalid {
+    border: 2px solid red;
+}
+
+
+.btnsub {
+    color: white;
+    font-weight: bold;
+    background-color: #596D48;
+    padding: 10px 30px;
+    margin-top: 35px;
+    margin-left: 22px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.35);
+    border: none;
+}
+
+.alreadyhave {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-left: 22px;
+}   
+
+.login {
+    color: #596D48;
+    text-decoration: none;
+}
